@@ -1,24 +1,24 @@
-title: "روزنوشت‌های من"
-motto: "می‌نویسم پس هستم"
-author: Mehdi Sadeghi
-email: sadeghi@mehdix.org
-url: # the base hostname & protocol for your site
+title: مشاهدات حسین فیروز
+motto: پسری که همیشه میخندد :)
+author: حسین فیروز
+email: hsnfirooz@yahoo.com
+url: https://hsnfirooz.com # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog
-keywords: کامپیوتر برنامه‌نویسی وب
+keywords: کامپیوتر بلاگ وب فارسی روزنوشته کتاب
 copyright: "Commons Attribution 4.0 International"
-robot: 
+robot:
 description: > # this means to ignore newlines
-  سکوی انتشار مطالبی در مورد دانش تولید نرم‌افزار و ایده‌ها و علایق شخصی‌ام.
+  در اینجا مشاهدات و یادداشت‌های شخصی‌ام را مینویسم.
 long_description: >
-  بچه که بودیم همیشه برای بازی خونه می‌ساختیم. حالا هم نمونه‌اش رو در وب ساختم.
-  اینجا سکوی انتشار مطالبی در مورد دانش تولید نرم‌افزار و ایده‌ها و علایق شخصی‌ام است،
-  بویژه راه‌حل‌های مهندسی که باعث رشد و پیشرفتم شده است و می‌تواند مورد استفاده دیگران هم قرار بگیرد.
+  تمامی نوشته‌ها به راحتی از صفحه گیت‌هاب قابل دسترسی هستند. ذکر منبع موجب دلگرمی نویسنده و نشانه‌ی اخلاق حرفه‌ای است.
 
 favicon: assets/img/favicon.png
 permalink: :title.html
-timezone: Europe/Berlin
+timezone: Asia/Tehran
 
-paginate: 3
+theme: jekyll-theme-mehdix-rtl
+
+paginate: 10
 paginate_path: /page:num/
 
 tag_page_layout: tag_page
@@ -31,14 +31,14 @@ collections:
 comment_system: static # or disqus. Default is no comments.
 #disqus_shortname: mehdix
 #google_analytics_id: UA-57282325-1
-feedburner_id: REPLACE_WITH_YOUR_FEEDBURNER_ID
+#feedburner_id: REPLACE_WITH_YOUR_FEEDBURNER_ID
 
 lang: fa_IR
-twitter:
-  username: mehdisadeghii
+#twitter:
+  #username: mehdisadeghii
 github:
-  username: mehdisadeghi
-  repository: jekyll-theme-mehdix-rtl
+  username: hsnfirooz
+  repository: hsnfirooz.com
 # Footer logo will disappear if not set.
 #logo: assets/img/me.png
 

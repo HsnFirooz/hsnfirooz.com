@@ -38,3 +38,5 @@ _site/
 *.sublime-workspace
 vendor
 env.sh
+
+.DS_Store
