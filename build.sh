@@ -5,8 +5,8 @@
 set -e
 
 echo "Set git credentials."
-git config --global user.email "msk1361@gmail.com"
-git config --global user.name "Mehdi Sadeghi"
+git config --global user.email "hsnfirooz@yahoo.com"
+git config --global user.name "hsnfirooz"
 git config credential.helper "store --file=.git/credentials"
 echo "https://${GH_TOKEN}:@github.com" > .git/credentials
 
