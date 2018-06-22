@@ -14,7 +14,7 @@ from langdetect import DetectorFactory, detect
 # Stay consistent between builds
 DetectorFactory.seed = 0
 
-SECRET = os.environ['SECRET']
+SECRET = os.environ['8edca63fc4955e284312d69ed1378658c076f9ce794634aa14ecfe7209b539b1']
 COMMENT_DIR = os.environ.get('COMMENT_DIR', './_source/_data/comments')
 
 ACCESS_TOKEN = os.environ['NETLIFY_ACCESS_TOKEN']
